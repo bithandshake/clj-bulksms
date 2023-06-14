@@ -50,11 +50,6 @@ function sends an SMS message.
 
 ```
 (send-message! {...}
-               {:body [:html [:body [:div "Hello World!"]]] ...})
-```
-
-```
-(send-message! {...}
                {:to "+1234567890" :body "Hi there!"})
 
 ```
