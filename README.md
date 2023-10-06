@@ -3,8 +3,7 @@
 
 ### Overview
 
-The <strong>clj-bulksms</strong> is a set of Clojure functions that help you use
-the bulksms.com API.
+The <strong>clj-bulksms</strong> is a simple Clojure API library for bulksms.com.
 
 ### deps.edn
 
