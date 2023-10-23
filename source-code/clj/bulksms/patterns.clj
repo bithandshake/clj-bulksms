@@ -14,7 +14,7 @@
      {:password     {:rep* [:token-id :token-secret]
                      :f*   string?
                      :not* empty?
-                     :e*   ":username must be a nonempty string!"}
+                     :e*   ":password must be a nonempty string!"}
       :token-id     {:rep* [:username :password]
                      :f*   string?
                      :not* empty?

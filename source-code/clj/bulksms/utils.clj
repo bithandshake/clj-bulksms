@@ -7,6 +7,10 @@
 ;; ----------------------------------------------------------------------------
 
 (defn acknowledge?
+  ; @description
+  ; Returns TRUE if the received response that returned by the 'send-message!'
+  ; function contains a successful HTTP status code (2**).
+  ;
   ; @param (map) response
   ; {:status (integer)}
   ;
@@ -15,7 +19,8 @@
   ;
   ; @return (boolean)
   [response]
-  (-> response :status (math/between? 200 299)))
+  ; (-> response :status (math/between? 200 299))
+  (-> response :status str first str (= "2")))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------

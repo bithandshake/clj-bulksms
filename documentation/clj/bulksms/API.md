@@ -12,6 +12,12 @@
 ### acknowledge?
 
 ```
+@description
+Returns TRUE if the received response that returned by the 'send-message!'
+function contains a successful HTTP status code (2**).
+```
+
+```
 @param (map) response
 {:status (integer)}
 ```
@@ -31,7 +37,7 @@
 ```
 (defn acknowledge?
   [response]
-  (-> response :status (math/between? 200 299)))
+  (-> response :status str first str (= "2")))
 ```
 
 </details>
@@ -51,6 +57,13 @@
 ---
 
 ### send-message!
+
+```
+@description
+- Sends an SMS to the given phone number using the bulksms.com API (v1).
+- For authentication use one of the ':password & :username' or the
+  ':token-id & :token-secret' pairs.
+```
 
 ```
 @param (map) auth-props

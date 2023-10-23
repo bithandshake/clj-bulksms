@@ -10,6 +10,11 @@
 ;; ----------------------------------------------------------------------------
 
 (defn send-message!
+  ; @description
+  ; - Sends an SMS to the given phone number using the bulksms.com API (v1).
+  ; - For authentication use one of the ':password & :username' or the
+  ;   ':token-id & :token-secret' pairs.
+  ;
   ; @param (map) auth-props
   ; {:password (string)(opt)
   ;  :token-id (string)(opt)
