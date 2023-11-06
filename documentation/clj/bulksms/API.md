@@ -1,5 +1,9 @@
 
-# bulksms.api Clojure namespace
+### bulksms.api
+
+Functional documentation of the bulksms.api Clojure namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > bulksms.api
 
@@ -8,6 +12,8 @@
 - [acknowledge?](#acknowledge)
 
 - [send-message!](#send-message)
+
+---
 
 ### acknowledge?
 
@@ -135,5 +141,5 @@ function contains a successful HTTP status code (2**).
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 

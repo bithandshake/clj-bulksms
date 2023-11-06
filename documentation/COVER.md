@@ -1,7 +1,11 @@
 
-# clj-bulksms documentation
+### clj-bulksms
 
-Documentation of the [clj-bulksms](https://github.com/bithandshake/clj-bulksms) Clojure library
+Functional documentation of the [clj-bulksms](https://github.com/bithandshake/clj-bulksms) Clojure library
+
+---
+
+
 
 ##### [README](../README.md) > DOCUMENTATION
 
@@ -11,5 +15,5 @@ Documentation of the [clj-bulksms](https://github.com/bithandshake/clj-bulksms) 
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
