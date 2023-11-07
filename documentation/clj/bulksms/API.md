@@ -43,7 +43,7 @@ function contains a successful HTTP status code (2**).
 ```
 (defn acknowledge?
   [response]
-  (-> response :status str first str (= "2")))
+  (-> response :status string/first-character (= "2")))
 ```
 
 </details>

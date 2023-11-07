@@ -1,7 +1,8 @@
 
 (ns bulksms.utils
     (:require [bulksms.config :as config]
-              [math.api       :as math]))
+              [math.api       :as math]
+              [string.api     :as string]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -20,7 +21,7 @@
   ; @return (boolean)
   [response]
   ; (-> response :status (math/between? 200 299))
-  (-> response :status str first str (= "2")))
+  (-> response :status string/first-character (= "2")))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
