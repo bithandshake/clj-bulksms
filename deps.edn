@@ -4,6 +4,6 @@
          bithandshake/cljc-fruits    {:git/url "https://github.com/bithandshake/cljc-fruits"
                                       :sha     "aeab860b3dd44aec44b99c2ddde2feb8b10013df"}
          bithandshake/cljc-validator {:git/url "https://github.com/bithandshake/cljc-validator"
-                                      :sha     "d8b96a68db55c43eb746f3c6fd170209cdb72292"}
+                                      :sha     "27f2b9f7cb1aa2562ec897f9345ede7cc01a642e"}
          org.clojure/clojure         {:mvn/version "1.10.1"}}}
                                       
