@@ -6,8 +6,8 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; bulksms.side-effects
+; @redirect (bulksms.side-effects)
 (def send-message! side-effects/send-message!)
 
-; bulksms.utils
+; @redirect (bulksms.utils)
 (def acknowledge? utils/acknowledge?)
