@@ -1,8 +1,8 @@
 
 (ns bulksms.side-effects
-    (:require [bulksms.patterns   :as patterns]
+    (:require [bulksms.tests :as tests]
               [bulksms.prototypes :as prototypes]
-              [bulksms.utils      :as utils]
+              [bulksms.utils :as utils]
               [clj-http.client    :as clj-http.client]
               [validator.api      :as v]))
 
@@ -42,8 +42,8 @@
   ;
   ; @return (?)
   [auth-props message-props]
-  (and (v/valid? auth-props    {:pattern* patterns/AUTH-PROPS-PATTERN    :prefix* "auth-props"})
-       (v/valid? message-props {:pattern* patterns/MESSAGE-PROPS-PATTERN :prefix* "message-props"})
+  (and (v/valid? auth-props    tests/AUTH-PROPS-TEST    {:prefix "auth-props"})
+       (v/valid? message-props tests/MESSAGE-PROPS-TEST {:prefix "message-props"})
        (let [messages-uri  (utils/create-uri "messages")
              message-props (prototypes/message-props-prototype message-props)
              request-body  (utils/message-props->request-body  message-props)

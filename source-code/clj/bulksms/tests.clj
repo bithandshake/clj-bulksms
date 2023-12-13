@@ -1,5 +1,5 @@
 
-(ns bulksms.patterns)
+(ns bulksms.tests)
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -10,7 +10,7 @@
 ; https://github.com/bithandshake/cljc-validator
 ;
 ; @constant (map)
-(def AUTH-PROPS-PATTERN
+(def AUTH-PROPS-TEST
      {:password     {:rep* [:token-id :token-secret]
                      :f*   string?
                      :not* empty?
@@ -34,7 +34,7 @@
 ; https://github.com/bithandshake/cljc-validator
 ;
 ; @constant (map)
-(def MESSAGE-PROPS-PATTERN
+(def MESSAGE-PROPS-TEST
      {:body {:f*   string?
              :not* empty?
              :e*   ":body must be a nonempty string!"}
