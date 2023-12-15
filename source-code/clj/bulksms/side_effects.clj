@@ -1,8 +1,8 @@
 
 (ns bulksms.side-effects
-    (:require [bulksms.tests :as tests]
-              [bulksms.prototypes :as prototypes]
-              [bulksms.utils :as utils]
+    (:require [bulksms.prototypes :as prototypes]
+              [bulksms.tests      :as tests]
+              [bulksms.utils      :as utils]
               [clj-http.client    :as clj-http.client]
               [validator.api      :as v]))
 
