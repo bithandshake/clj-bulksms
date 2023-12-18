@@ -9,7 +9,7 @@ The <strong>clj-bulksms</strong> is a simple Clojure API library for bulksms.com
 
 ```
 {:deps {bithandshake/clj-bulksms {:git/url "https://github.com/bithandshake/clj-bulksms"
-                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
