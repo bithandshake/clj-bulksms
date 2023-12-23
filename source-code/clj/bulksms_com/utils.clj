@@ -1,6 +1,6 @@
 
-(ns bulksms.utils
-    (:require [bulksms.config    :as config]
+(ns bulksms-com.utils
+    (:require [bulksms-com.config :as config]
               [fruits.math.api   :as math]
               [fruits.string.api :as string]))
 
@@ -9,7 +9,7 @@
 
 (defn acknowledge?
   ; @description
-  ; Returns TRUE if the received response that returned by the 'send-message!'
+  ; Returns TRUE if the received response returned by the 'send-message!'
   ; function contains a successful HTTP status code (2**).
   ;
   ; @param (map) response

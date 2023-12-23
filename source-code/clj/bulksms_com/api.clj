@@ -1,13 +1,13 @@
 
-(ns bulksms.api
-    (:require [bulksms.side-effects :as side-effects]
-              [bulksms.utils        :as utils]))
+(ns bulksms-com.api
+    (:require [bulksms-com.side-effects :as side-effects]
+              [bulksms-com.utils        :as utils]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; @redirect (bulksms.side-effects/*)
+; @redirect (bulksms-com.side-effects/*)
 (def send-message! side-effects/send-message!)
 
-; @redirect (bulksms.utils/*)
+; @redirect (bulksms-com.utils/*)
 (def acknowledge? utils/acknowledge?)

@@ -1,71 +1,25 @@
 
-# clj-bulksms
+# clj-bulksms-com-api
 
 ### Overview
 
-The <strong>clj-bulksms</strong> is a simple Clojure API library for bulksms.com.
+The <strong>clj-bulksms-com-api</strong> is a simple Clojure API library for bulksms.com.
 
 ### deps.edn
 
 ```
-{:deps {bithandshake/clj-bulksms {:git/url "https://github.com/bithandshake/clj-bulksms"
-                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
+{:deps {bithandshake/clj-bulksms-com-api {:git/url "https://github.com/bithandshake/clj-bulksms-com-api"
+                                          :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/clj-bulksms/tree/release).
+Check out the latest commit on the [release branch](https://github.com/bithandshake/clj-bulksms-com-api/tree/release).
 
 ### Documentation
 
-The <strong>clj-bulksms</strong> functional documentation is [available here](https://bithandshake.github.io/clj-bulksms).
+The <strong>clj-bulksms-com-api</strong> functional documentation is [available here](https://bithandshake.github.io/clj-bulksms-com-api).
 
 ### Changelog
 
-You can track the changes of the <strong>clj-bulksms</strong> library [here](CHANGES.md).
-
-# Usage
-
-> Some parameters of the following functions and some further functions are not discussed in this file.
-  To learn more about the available functionality, check out the [functional documentation](documentation/COVER.md)!
-
-### Index
-
-- [How to send an SMS?](#how-to-send-an-sms)
-
-- [How to acknowledge the sending?](#how-to-acknowledge-the-sending)
-
-### How to send an SMS?
-
-The [`bulksms.api/send-message!`](documentation/clj/bulksms/API.md/#send-message)
-function sends an SMS message.
-
-```
-(send-message! {:username "my-user" :password "psw1234"}
-               {...})
-```
-
-```
-(send-message! {:token-id "..." :token-secret "..."}
-               {...})
-```
-
-```
-(send-message! {...}
-               {:to "+1234567890" :body "Hi there!"})
-
-```
-
-```
-(send-message! {...}
-               {:to ["+1234567890" "+0987654321"] :body "Hi there!"})
-```
-
-### How to acknowledge the sending?
-
-The [`bulksms.api/acknowledge?`](documentation/clj/bulksms/API.md/#acknowledge)
-function returns true if the message has been sent without errors.
-
-```
-(acknowledge? (send-message! {...} {...}))
-```
+You can track the changes of the <strong>clj-bulksms-com-api</strong> library [here](CHANGES.md).

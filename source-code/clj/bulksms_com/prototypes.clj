@@ -1,5 +1,5 @@
 
-(ns bulksms.prototypes
+(ns bulksms-com.prototypes
     (:require [fruits.mixed.api :as mixed]))
 
 ;; ----------------------------------------------------------------------------
