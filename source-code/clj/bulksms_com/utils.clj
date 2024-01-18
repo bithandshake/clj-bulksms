@@ -1,8 +1,8 @@
 
 (ns bulksms-com.utils
     (:require [bulksms-com.config :as config]
-              [fruits.math.api   :as math]
-              [fruits.string.api :as string]))
+              [fruits.math.api    :as math]
+              [fruits.string.api  :as string]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
