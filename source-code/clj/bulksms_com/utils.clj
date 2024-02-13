@@ -9,8 +9,7 @@
 
 (defn acknowledge?
   ; @description
-  ; Returns TRUE if the received response returned by the 'send-message!'
-  ; function contains a successful HTTP status code (2**).
+  ; Returns TRUE if the received response returned by the 'send-message!' function contains a successful HTTP status code (2**).
   ;
   ; @param (map) response
   ; {:status (integer)}
