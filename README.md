@@ -3,7 +3,7 @@
 
 ### Overview
 
-The <strong>clj-bulksms-com-api</strong> is a simple Clojure API adapter for bulksms.com.
+The <strong>clj-bulksms-com-api</strong> is a simple Clojure adapter for the bulksms.com API.
 
 ### deps.edn
 
