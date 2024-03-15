@@ -6,8 +6,8 @@
 
 ; @ignore
 ;
-; @note
-; https://github.com/bithandshake/cljc-validator
+; @links
+; [cljc-validator](mt-utilities.github.io/cljc-validator)
 ;
 ; @constant (map)
 (def AUTH-PROPS-TEST
@@ -30,8 +30,8 @@
 
 ; @ignore
 ;
-; @note
-; https://github.com/bithandshake/cljc-validator
+; @links
+; [cljc-validator](mt-utilities.github.io/cljc-validator)
 ;
 ; @constant (map)
 (def MESSAGE-PROPS-TEST
