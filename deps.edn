@@ -4,5 +4,5 @@
          mt-utilities/cljc-fruits    {:git/url "https://github.com/mt-utilities/cljc-fruits"
                                       :sha     "6b5c9c060bdff84d0cd0bce908b64b268e5e6f0e"}
          mt-utilities/cljc-validator {:git/url "https://github.com/mt-utilities/cljc-validator"
-                                      :sha     "5291ed378639740d81372704a31986dcefe9e320"}
+                                      :sha     "8864c6ebc2521207468a74bd3048cde947cc2727"}
          org.clojure/clojure         {:mvn/version "1.10.1"}}}
