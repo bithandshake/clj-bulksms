@@ -41,8 +41,8 @@
   ;
   ; @return (?)
   [auth-props message-props]
-  (and (v/valid? auth-props    tests/AUTH-PROPS-TEST    {:prefix "auth-props"})
-       (v/valid? message-props tests/MESSAGE-PROPS-TEST {:prefix "message-props"})
+  (and (v/valid? auth-props    [tests/AUTH-PROPS-TEST]    {:prefix "auth-props"})
+       (v/valid? message-props [tests/MESSAGE-PROPS-TEST] {:prefix "message-props"})
        (let [messages-uri  (utils/create-uri "messages")
              message-props (prototypes/message-props-prototype message-props)
              request-body  (utils/message-props->request-body  message-props)

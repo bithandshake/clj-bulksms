@@ -10,4 +10,4 @@
 (def send-message! side-effects/send-message!)
 
 ; @redirect (bulksms-com.utils/*)
-(def acknowledge? utils/acknowledge?)
+(def acknowledged? utils/acknowledged?)

@@ -7,7 +7,7 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-(defn acknowledge?
+(defn acknowledged?
   ; @description
   ; Returns TRUE if the received response returned by the 'send-message!' function contains a successful HTTP status code (2**).
   ;
@@ -15,7 +15,7 @@
   ; {:status (integer)}
   ;
   ; @usage
-  ; (acknowledge? (send-message! {...} {...}))
+  ; (acknowledged? (send-message! {...} {...}))
   ;
   ; @return (boolean)
   [response]
