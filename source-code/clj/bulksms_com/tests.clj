@@ -7,7 +7,7 @@
 ; @ignore
 ;
 ; @links
-; [cljc-validator](github.com/mt-utilities/cljc-validator)
+; [cljc-validator](https://github.com/mt-utilities/cljc-validator)
 ;
 ; @constant (map)
 (def AUTH-PROPS-TEST
@@ -31,7 +31,7 @@
 ; @ignore
 ;
 ; @links
-; [cljc-validator](github.com/mt-utilities/cljc-validator)
+; [cljc-validator](https://github.com/mt-utilities/cljc-validator)
 ;
 ; @constant (map)
 (def MESSAGE-PROPS-TEST
