@@ -2,7 +2,7 @@
 {:paths ["source-code/clj"]
  :deps  {clj-http/clj-http           {:mvn/version "3.12.3"}
          bithandshake/cljc-fruits    {:git/url "https://github.com/bithandshake/cljc-fruits"
-                                      :sha     "fc7f9978b1b8a5e6c75bc6523fb6c8631cfab4bc"}
+                                      :sha     "289bfaa76c90632b4332e89a226eb657e7eb4107"}
          mt-utilities/cljc-validator {:git/url "https://github.com/mt-utilities/cljc-validator"
-                                      :sha     "222c45658db6565967fd1a62fe28513577ffeedb"}
+                                      :sha     "24be87b83e439922b986238ec62a310d004f3c1f"}
          org.clojure/clojure         {:mvn/version "1.10.1"}}}
